@@ -45,11 +45,11 @@ hr {
 /* Estilos Personalizados */
 
 .hero-img {
-  background-image: url(/img/main-hero.jpg);
+  background-image: url(../img/main-hero.jpg);
 }
 
 .nosotros-img {
-  background-image: url(/img/bg-iconbox-1.jpg);
+  background-image: url(../img/bg-iconbox-1.jpg);
 }
 
 .shadow {
@@ -59,7 +59,7 @@ hr {
 }
 
 .contact-img {
-  background-image: url(/img/contact.jpg);
+  background-image: url(../img/contact.jpg);
 }
 
 /* .animacion {
