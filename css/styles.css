@@ -1,0 +1,116 @@
+
+
+/* Utilidades */
+
+p {
+  font-size: 18px;  
+}
+
+hr {
+  background-color: #0097DA;
+  height: 2px;
+  width: 150px;
+  margin: auto; 
+}
+
+.bordes {
+    border:red 1px solid;
+}
+
+.fondo {
+ 
+   background-size: cover;
+   background-position: center;
+}
+
+.white-tipo {
+    color: white;
+}
+
+
+
+.btn-primary {
+    background-color: #0097DA;
+    color: white;
+    margin-top: 20px;
+    border-color: #0097DA ;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+/* Estilos Personalizados */
+
+.hero-img {
+  background-image: url(/img/main-hero.jpg);
+}
+
+.nosotros-img {
+  background-image: url(/img/bg-iconbox-1.jpg);
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 2px 9px 0px rgba(115,115,115,1);
+  -moz-box-shadow: 0px 2px 9px 0px rgba(115,115,115,1);
+  box-shadow: 0px 2px 9px 0px rgba(115,115,115,1);
+}
+
+.contact-img {
+  background-image: url(/img/contact.jpg);
+}
+
+/* .animacion {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+  }
+  
+  @keyframes example {
+    from {background-color: red; left: 0px;}
+    to {background-color: yellow; left: 100px;}
+  } */
+
+  @media screen and (max-width: 900px) and (min-width: 750px) {
+    /* body {
+      background-color: blue;
+
+    } */
+
+    .img-tb {
+      width: 150px ;
+      height: 150px;     
+    }
+
+    .img-tb-2 {
+      width: 300px ;
+      height: 250px;     
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 420px) {
+    .center-items {
+      display: flex;
+      justify-content: space-around;
+     
+    }
+
+
+  }
+
+  @media screen  and (max-width: 420px) {
+    .center-items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    
+  }
+  
